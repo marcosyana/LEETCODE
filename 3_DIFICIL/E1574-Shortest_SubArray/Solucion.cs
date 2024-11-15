@@ -14,7 +14,7 @@ using System;
 
 public class Solucion
 {
-    public int BusquedaSubArray (int[] matriz)
+    public int BusquedaSubMatriz (int[] matriz)
     {
         int n = matriz.Length; //Asignamos la longitud del arreglo
         int i = 0, j = n - 1;
@@ -67,11 +67,11 @@ public class Solucion
     public static void Main(string[] args)
     {
         // Creamos una instancia
-        Solucion solution = new Solucion();
+        Solucion solucion = new Solucion();
 
-        // Prueba el método con un ejemplo
-        int[] arr = { 1, 2, 3 };
-        int result = solution.BusquedaSubArray(arr);
-        Console.WriteLine("El resultado es: " + result);
+        // Datos de entrada
+        int[] arreglo = { 1, 2, 3 };
+        int resultado = solucion.BusquedaSubMatriz(arreglo);
+        Console.WriteLine("El resultado es: " + resultado);
     }
 }
