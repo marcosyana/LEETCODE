@@ -4,3 +4,8 @@
 # Soluciones de logica de programacion de Leetcode 
 
 ## Lenguajes de Programacion 
+📂 JavaScript
+📂 TypeScript
+📂 Python
+📂 C-Sharp
+📂 PHP
