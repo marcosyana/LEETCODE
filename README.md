@@ -5,7 +5,11 @@
 
 ## Lenguajes de Programacion 
 📂 JavaScript
+
 📂 TypeScript
+
 📂 Python
+
 📂 C-Sharp
+
 📂 PHP
