@@ -1,3 +1,6 @@
-<h1 align="center">✨Logica de Programacion ✨</h1>
+<h1 align="center">✨ LEETCODE ✨</h1>
 
 ![Demo App](/Leetcode.png)
+# Soluciones de logica de programacion de Leetcode 
+
+## Lenguajes de Programacion 
