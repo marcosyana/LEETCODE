@@ -45,23 +45,23 @@ public class Solucion
     }
 
     //Metodo para hacer busquedas binarias leth = punto de inicio para la busqueda, right = almacena la longitud del arreglo
-    private int Busqueda(int[] matriz, int x, int left)
+    private int Busqueda(int[] matriz, int x, int puntoInicio)
     {
-        int right = matriz.Length;//almacenamos la logitud de la matriz 
+        int almacenaMatriz = matriz.Length;//almacenamos la logitud de la matriz 
         //hacemos una busqueda binaria
-        while (left < right)
+        while (puntoInicio < almacenaMatriz)
         {
-            int valorMedio = (left + right) / 2;
+            int valorMedio = (puntoInicio + almacenaMatriz) / 2;
             if (matriz[valorMedio] >= x)
             {
-                right = valorMedio;
+                almacenaMatriz = valorMedio;
             }
             else
             {
-                left = valorMedio + 1;
+                puntoInicio = valorMedio + 1;
             }
         }
-        return left;
+        return puntoInicio;
     }
 
     public static void Main(string[] args)
